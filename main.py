@@ -1,6 +1,6 @@
 
 import streamlit as st
-from langchain import ChatOpenAI
+from langchain.chat_models import ChatOpenAI
 
 chat_model = ChatOpenAI()
 
